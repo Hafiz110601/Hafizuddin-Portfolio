@@ -276,17 +276,17 @@ header{
 
 .hero-image img{
 
-    width:380px;
+    width:260px;
 
-    height:380px;
+    height:260px;
 
     object-fit:cover;
 
     border-radius:50%;
 
-    border:8px solid white;
+    border:6px solid white;
 
-    box-shadow:0 20px 45px rgba(37,99,235,.18);
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
 
 }
 
