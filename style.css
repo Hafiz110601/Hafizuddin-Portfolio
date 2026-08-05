@@ -921,3 +921,134 @@ height:280px;
     font-weight:600;
 
 }
+
+/* ==========================================
+   MY PROFESSIONAL JOURNEY
+========================================== */
+
+.journey{
+
+    max-width:1200px;
+    margin:auto;
+    padding:100px 25px;
+
+}
+
+.timeline{
+
+    position:relative;
+    margin-top:50px;
+
+}
+
+.timeline::before{
+
+    content:"";
+    position:absolute;
+    left:28px;
+    top:0;
+    width:4px;
+    height:100%;
+    background:#2563EB;
+
+}
+
+.timeline-item{
+
+    position:relative;
+    margin-left:70px;
+    margin-bottom:50px;
+
+}
+
+.timeline-item::before{
+
+    content:"";
+    position:absolute;
+    left:-54px;
+    top:18px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#2563EB;
+    border:5px solid white;
+    box-shadow:0 0 0 3px #2563EB;
+
+}
+
+.timeline-content{
+
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.timeline-year{
+
+    display:inline-block;
+    background:#DBEAFE;
+    color:#2563EB;
+    padding:8px 16px;
+    border-radius:25px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:18px;
+
+}
+
+.timeline-content h3{
+
+    margin-bottom:10px;
+    color:#0F172A;
+
+}
+
+.timeline-content h4{
+
+    margin-bottom:20px;
+    color:#475569;
+
+}
+
+.timeline-content p{
+
+    color:#475569;
+    line-height:1.8;
+    margin-bottom:20px;
+
+}
+
+.timeline-content ul{
+
+    margin-left:20px;
+    margin-bottom:20px;
+
+}
+
+.timeline-content li{
+
+    margin-bottom:10px;
+    color:#475569;
+
+}
+
+.journey-skills{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+
+}
+
+.journey-skills span{
+
+    background:#EEF4FF;
+    color:#2563EB;
+    padding:8px 16px;
+    border-radius:25px;
+    font-size:14px;
+    font-weight:600;
+
+}
