@@ -1052,3 +1052,63 @@ height:280px;
     font-weight:600;
 
 }
+
+/* ==========================================
+   PROFESSIONAL HIGHLIGHTS
+========================================== */
+
+.highlights{
+
+    max-width:1200px;
+    margin:auto;
+    padding:100px 25px;
+
+}
+
+.highlight-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+
+}
+
+.highlight-card{
+
+    background:#fff;
+    padding:40px 30px;
+    text-align:center;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.highlight-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.highlight-card i{
+
+    font-size:50px;
+    color:#2563EB;
+    margin-bottom:20px;
+
+}
+
+.highlight-card h3{
+
+    font-size:42px;
+    color:#0F172A;
+    margin-bottom:10px;
+
+}
+
+.highlight-card p{
+
+    color:#64748B;
+    font-weight:500;
+
+}
